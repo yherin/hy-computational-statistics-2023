@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "computational-statistics"
+version = "0.1.0"
+description = ""
+authors = ["sjack"]
+readme = "README.md"
+packages = [{include = "computational_statistics"}]
+
+[tool.poetry.dependencies]
+python = ">3.10,<3.12"
+pymc = "^5.0.2"
+jax = "^0.4.3"
+numpy = "^1.23"
+notebook = "^6.5.2"
+jupyter = "^1.0.0"
+theano = "^1.0.5"
+jaxlib = "^0.4.3"
+numpyro = "^0.11.0"
+scipy = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
